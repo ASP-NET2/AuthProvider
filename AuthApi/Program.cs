@@ -31,7 +31,8 @@ builder.Services.AddSingleton<ServiceBusSender>(sp =>
 
 builder.Services.AddSingleton<ServiceBusHandler>();
 builder.Services.AddHostedService(x=> x.GetRequiredService<ServiceBusHandler>());
-//builder.Services.AddHostedService<ServiceBusHandler>();
+
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 app.UseSwagger();

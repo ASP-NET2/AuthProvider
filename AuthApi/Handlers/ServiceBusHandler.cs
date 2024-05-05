@@ -8,7 +8,7 @@ namespace AuthApi.Handlers
     public class ServiceBusHandler : IHostedService
     {
         private readonly IConfiguration _configuration;
-     //   private IServiceProvider _serviceProvider;
+
 
         private readonly ServiceBusSender _sender;
         private readonly ServiceBusClient _client;
@@ -16,13 +16,13 @@ namespace AuthApi.Handlers
         public ServiceBusHandler(IConfiguration configuration)
         {
             _configuration = configuration;
-          //  _serviceProvider = serviceProvider;
+
 
             _client = new ServiceBusClient(_configuration.GetConnectionString("ServiceBus"));
             _sender = _client.CreateSender(_configuration.GetValue<string>("ServiceBus:SenderQueue"));
         }
 
-        private async Task HandleMessageAsync(ProcessMessageEventArgs args)
+        public async Task HandleMessageAsync(ProcessMessageEventArgs args)
         {
             try
             {

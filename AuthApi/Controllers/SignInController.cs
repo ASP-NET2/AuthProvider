@@ -15,8 +15,15 @@ namespace AuthApi.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
+               var user = await _signInManager.UserManager.FindByEmailAsync(model.Email);
 
+                if (user !=null && !user.EmailConfirmed)
+                {
+                    return Unauthorized();
+                }
+
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
+               
                 if (result.Succeeded)
                 {
                     return Ok();

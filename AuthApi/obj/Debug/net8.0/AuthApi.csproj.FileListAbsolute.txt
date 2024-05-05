@@ -145,3 +145,4 @@ C:\Skolan\ASP.NET2\Assignment\AuthProvider\AuthApi\bin\Debug\net8.0\Azure.Messag
 C:\Skolan\ASP.NET2\Assignment\AuthProvider\AuthApi\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
 C:\Skolan\ASP.NET2\Assignment\AuthProvider\AuthApi\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Skolan\ASP.NET2\Assignment\AuthProvider\AuthApi\bin\Debug\net8.0\System.ClientModel.dll
+C:\Skolan\ASP.NET2\Assignment\AuthProvider\AuthApi\obj\Debug\net8.0\AuthApi.sourcelink.json
