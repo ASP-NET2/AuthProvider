@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\controllers\\verificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\controllers\\verificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\controllers\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\controllers\\signoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\controllers\\signoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\handlers\\servicebushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\handlers\\servicebushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\models\\verificationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\models\\verificationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\models\\verificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\models\\verificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\models\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\models\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|c:\\skolan\\asp.net2\\assignment\\authprovider\\authapi\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4ACF33E-9B3A-40AD-9709-4904943B5856}|AuthApi\\AuthApi.csproj|solutionrelative:authapi\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,28 +59,114 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VerificationController.cs",
-              "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Controllers\\VerificationController.cs",
-              "RelativeDocumentMoniker": "AuthApi\\Controllers\\VerificationController.cs",
-              "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Controllers\\VerificationController.cs",
-              "RelativeToolTip": "AuthApi\\Controllers\\VerificationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:11:27.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "SignInController.cs",
               "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Controllers\\SignInController.cs",
               "RelativeDocumentMoniker": "AuthApi\\Controllers\\SignInController.cs",
               "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Controllers\\SignInController.cs",
               "RelativeToolTip": "AuthApi\\Controllers\\SignInController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:05:48.507Z",
+              "WhenOpened": "2024-05-07T08:36:09.095Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignOutController.cs",
+              "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Controllers\\SignOutController.cs",
+              "RelativeDocumentMoniker": "AuthApi\\Controllers\\SignOutController.cs",
+              "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Controllers\\SignOutController.cs",
+              "RelativeToolTip": "AuthApi\\Controllers\\SignOutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T08:36:07.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUpController.cs",
+              "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Controllers\\SignUpController.cs",
+              "RelativeDocumentMoniker": "AuthApi\\Controllers\\SignUpController.cs",
+              "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Controllers\\SignUpController.cs",
+              "RelativeToolTip": "AuthApi\\Controllers\\SignUpController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:33:51.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "AuthApi\\Services\\UserService.cs",
+              "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Services\\UserService.cs",
+              "RelativeToolTip": "AuthApi\\Services\\UserService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwDYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T08:21:02.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VerificationMessage.cs",
+              "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Models\\VerificationMessage.cs",
+              "RelativeDocumentMoniker": "AuthApi\\Models\\VerificationMessage.cs",
+              "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Models\\VerificationMessage.cs",
+              "RelativeToolTip": "AuthApi\\Models\\VerificationMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:34:35.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceBusHandler.cs",
+              "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Handlers\\ServiceBusHandler.cs",
+              "RelativeDocumentMoniker": "AuthApi\\Handlers\\ServiceBusHandler.cs",
+              "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Handlers\\ServiceBusHandler.cs",
+              "RelativeToolTip": "AuthApi\\Handlers\\ServiceBusHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T08:21:00.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VerificationRequest.cs",
+              "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Models\\VerificationRequest.cs",
+              "RelativeDocumentMoniker": "AuthApi\\Models\\VerificationRequest.cs",
+              "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Models\\VerificationRequest.cs",
+              "RelativeToolTip": "AuthApi\\Models\\VerificationRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:34:32.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignIn.cs",
+              "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Models\\SignIn.cs",
+              "RelativeDocumentMoniker": "AuthApi\\Models\\SignIn.cs",
+              "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Models\\SignIn.cs",
+              "RelativeToolTip": "AuthApi\\Models\\SignIn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:34:29.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Models\\SignUp.cs",
+              "RelativeDocumentMoniker": "AuthApi\\Models\\SignUp.cs",
+              "ToolTip": "C:\\Skolan\\ASP.NET2\\Assignment\\AuthProvider\\AuthApi\\Models\\SignUp.cs",
+              "RelativeToolTip": "AuthApi\\Models\\SignUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:34:25.643Z"
             }
           ]
         }

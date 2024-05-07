@@ -21,43 +21,47 @@ namespace AuthApi.Controllers
         {
             if (ModelState.IsValid)
             {
-                var identityUser = new IdentityUser
+                if(!await _userManager.Users.AnyAsync(x=> x.Email == model.Email))
                 {
-                    UserName = model.Email,
-                    Email = model.Email,
-                };
-
-                var result = await _userManager.CreateAsync(identityUser, model.Password);
-
-                if (result.Succeeded)
-                {
-                    try
+                    var identityUser = new IdentityUser
                     {
-                        var verificationRequest = new VerificationRequest
-                        {
-                            Email = model.Email,
-                        };
+                        UserName = model.Email,
+                        Email = model.Email,
+                    };
 
-                        var jsonMessage = JsonConvert.SerializeObject(verificationRequest);
+                    var result = await _userManager.CreateAsync(identityUser, model.Password);
 
-                        var serviceBusMessage = new ServiceBusMessage(jsonMessage)
-                        {
-                            ContentType = "application/json"
-                        };
-
-                        await _sender.SendMessageAsync(serviceBusMessage);
-
-                    }
-                    catch (Exception ex) 
+                    if (result.Succeeded)
                     {
-                        Console.WriteLine($"Error sending message to Service Bus: {ex.Message}");
-                        return StatusCode(500, "Internal server error");
-                    
+                        try
+                        {
+                            var verificationRequest = new VerificationRequest
+                            {
+                                Email = model.Email,
+                            };
+
+                            var jsonMessage = JsonConvert.SerializeObject(verificationRequest);
+
+                            var serviceBusMessage = new ServiceBusMessage(jsonMessage)
+                            {
+                                ContentType = "application/json"
+                            };
+
+                            await _sender.SendMessageAsync(serviceBusMessage);
+
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Error sending message to Service Bus: {ex.Message}");
+                            return StatusCode(500, "Internal server error");
+
+                        }
+
+                        return Ok();
                     }
 
-                    return Ok();
                 }
-
+               
                 return Conflict();
             }
             return BadRequest();
