@@ -12,7 +12,6 @@ namespace AuthApi.Handlers
 
         private readonly ServiceBusSender _sender;
         private readonly ServiceBusClient _client;
-
         public ServiceBusHandler(IConfiguration configuration)
         {
             _configuration = configuration;
@@ -28,19 +27,14 @@ namespace AuthApi.Handlers
             {
                 var body = args.Message.Body.ToString();
 
-                if(!string.IsNullOrEmpty(body))
+                if (!string.IsNullOrEmpty(body))
                 {
-                  var request = JsonConvert.DeserializeObject<VerificationRequest>(body);
+                    var request = JsonConvert.DeserializeObject<VerificationRequest>(body);
 
-                    if(request != null && !string.IsNullOrEmpty(request.Email))
+                    if (request != null && !string.IsNullOrEmpty(request.Email))
                     {
                         var email = request.Email;
 
-                        //var verificationRequest = new VerificationRequest
-                        //{
-                        //    Email = request.Email,
-                        //    VerificationType = request.VerificationType,
-                        //};
 
                         var jsonMessage = JsonConvert.SerializeObject(email);
 
@@ -54,12 +48,12 @@ namespace AuthApi.Handlers
                     }
                 }
 
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine($"Error handling message: {ex.Message}");
             }
         }
-       
 
         public Task StartAsync(CancellationToken cancellationToken)
         {

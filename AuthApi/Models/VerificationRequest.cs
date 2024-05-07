@@ -4,6 +4,5 @@
     {
         public string Email { get; set; } = null!;
 
-      //  public string VerificationType { get; set; } = "signup";
     }
 }
